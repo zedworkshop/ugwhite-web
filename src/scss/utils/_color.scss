@@ -1,0 +1,32 @@
+// Primary colors
+
+$forest: #4A7637;
+$forest-lighter: tint($forest, 66);
+$forest-light: lighten($forest, 5);
+$forest-dark: darken($forest, 5);
+$forest-darker: shade($forest, 50);
+
+$rust: #b83d24;
+$rust-lighter: tint($rust, 60);
+$rust-light: lighten($rust, 5);
+$rust-dark: darken($rust, 5);
+$rust-darker: shade($rust, 50);
+
+$sand: #F3E4B2;
+$sand-lighter: tint($sand, 33);
+$sand-light: tint($sand, 66);
+$sand-dark: shade($sand, 85);
+$sand-darker: shade($sand, 66);
+
+$tint: #f4f4f4;
+
+// Alt colors
+
+$alt-1: #7A232E; // Dusk
+$alt-2: #F6B221; // Sunbeam
+$alt-3: #002B49; // Full Moon
+$alt-4: #706259; // Clay
+$alt-5: #BF1E2E; // Cardinal
+$alt-6: #4F4A33; // Mossy Oak
+$alt-7: #D99A29; // Honeycomb
+$alt-8: #513628; // Bark

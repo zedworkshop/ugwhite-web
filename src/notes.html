@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>UG White Mercantile</title>
+	<!-- build:css css/main.css -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- endbuild -->
+	<script src="bower_components/modernizr/modernizr.js"></script>
+	<script>
+		(function(d) {
+			var config = {
+				kitId: 'hdv3cdw',
+				scriptTimeout: 3000,
+				async: true
+			},
+			h = d.documentElement,
+			t = setTimeout(function() {
+				h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+			}, config.scriptTimeout),
+			tk = d.createElement("script"),
+			f = false,
+			s = d.getElementsByTagName("script")[0],
+			a;
+			h.className += " wf-loading";
+			tk.src = '//use.typekit.net/' + config.kitId + '.js';
+			tk.async = true;
+			tk.onload = tk.onreadystatechange = function() {
+				a = this.readyState;
+				if (f || a && a != "complete" && a != "loaded") return;
+				f = true;
+				clearTimeout(t);
+				try {
+					Typekit.load(config)
+				} catch (e) {}
+			};
+			s.parentNode.insertBefore(tk, s)
+		})(document);
+	</script>
+</head>
+
+<body>
+	<nav class="[ top-0 left-0 full-width ] [ bg-forest px2 py2 ] sitenav">
+		<div class="[ relative ] [ futura caps xsmall white center ] sitenav-inner">
+			<a href="/" class="logo">
+				<img alt="" src="./images/UGW-logo-tri-forest.png" />
+			</a>
+			<a class="btn" href="#">Our History</a>
+			<a class="btn" href="#">Field Notes</a>
+			<a class="btn" href="#">Contact</a>
+		</div>
+	</nav>
+
+	<main class="main" role="main">
+
+		<header class="container">
+			<div class="px2 py4 center">
+
+				<figure class="m0 mx-auto md-col-9 postcard curled">
+					<img alt="" src="../images/img-postcard.jpg" />
+				</figure>
+
+				<div class="blog-titling">
+					<h1 class="banner banner-lg banner-rust mx-auto mt0 mb0">
+						<span class="text wisdom sand">Field Notes</span>
+					</h1>
+				</div>
+
+				<img class="mb1" alt="" src="../images/img-star-forest.png" />
+
+				<p class="caps futura sand-darker mb0">Writings and observations from <br />the desk of
+					<span class="block wisdom regular sentence h3">U.G. White</span></p>
+				</div>
+			</header>
+
+			<section class="[ container py2 cushion-bottom ] blog-articles">
+				<div class="clearfix">
+
+					<div class="md-col md-col-4 px3 mb4 center">
+						<a href="#">
+							<figure class="m0">
+								<img alt="" src="../images/img-exterior-2.jpg" />
+							</figure>
+
+							<h5 class="dark futura regular mt1 mb1">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h5>
+							<p class="mb0 futura regular sand-darker">September 25, 2015</p>
+						</a>
+					</div>
+
+					<div class="md-col md-col-4 px3 mb4 center">
+						<a href="#">
+							<figure class="m0">
+								<img alt="" src="../images/img-exterior-2.jpg" />
+							</figure>
+
+							<h5 class="dark futura regular mt1 mb1">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h5>
+							<p class="mb0 futura regular sand-darker">September 25, 2015</p>
+						</a>
+					</div>
+
+					<div class="md-col md-col-4 px3 mb4 center">
+						<a href="#">
+							<figure class="m0">
+								<img alt="" src="../images/img-exterior-2.jpg" />
+							</figure>
+
+							<h5 class="dark futura regular mt1 mb1">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h5>
+							<p class="mb0 futura regular sand-darker">September 25, 2015</p>
+						</a>
+					</div>
+
+					<div class="md-col md-col-4 px3 mb4 center">
+						<a href="#">
+							<figure class="m0">
+								<img alt="" src="../images/img-exterior-2.jpg" />
+							</figure>
+
+							<h5 class="dark futura regular mt1 mb1">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h5>
+							<p class="mb0 futura regular sand-darker">September 25, 2015</p>
+						</a>
+					</div>
+
+				</div>
+			</section>
+
+
+
+		</main>
+
+		<footer class="[ bg-forest-light ] sitefooter" role="footer">
+			<div class="bg-forest py2">
+				&nbsp;
+			</div>
+			<div class="container">
+				<div class="clearfix center">
+					<div class="md-col md-col-5 md-left-align px2 py2">
+						<p class="small white normal futura">Copyright &copy; 2015 UG White Mercantile</p>
+					</div>
+					<div class="md-show md-col md-col-2 mtn2 footer-logo">
+						<img alt="" src="./images/UGW-logo-duo-forest.png" />
+					</div>
+					<div class="md-col md-col-5 md-right-align px2 py2 mb4">
+						<p class="small white normal futura">asdf</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="bower_components/jquery/dist/jquery.js"></script>
+		<script src="bower_components/headhesive/dist/headhesive.js"></script>
+		<script src="scripts/main.js"></script>
+	</body>
+
+	</html>

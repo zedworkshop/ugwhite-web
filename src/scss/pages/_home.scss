@@ -1,0 +1,80 @@
+.home-hero {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url(../images/home-hero-sm.jpg);
+
+	@media #{$breakpoint-md} {
+		background-image: url(../images/home-hero.jpg);
+
+		.flexbox & {
+			height: 95vh;
+			height: calc(100vh - 60px);
+		}
+	}
+}
+
+.home-tagline {
+	margin-top: 4rem;
+	margin-bottom: 6rem;
+
+	@media #{$breakpoint-sm} {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+.home-intro {
+	background-image: url(../images/home-bg-red.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	border-top: 10px solid $alt-2;
+	position: relative;
+
+	&:before {
+		content: '';
+		display: block;
+
+		height: 96px;
+		width: 422px;
+		background: url(../images/home-curl.png) no-repeat top center;
+
+		position: absolute;
+		bottom: 100%;
+		left: 50%;
+		margin-left: -(422px/2);
+	}
+}
+
+.home-locations {
+	background-image: url(../images/home-bg-visit.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+
+	@media #{$breakpoint-xl} {
+		.clearfix:first-child {
+			display: flex;
+			flex-direction: row-reverse;
+			align-items: center;
+		}
+
+		.xl-col-5 {
+			margin-top: -4rem;
+		}
+	}
+}
+
+.home-photo {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+
+	@media #{$breakpoint-sm} {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+
+	@media #{$breakpoint-xl} {
+		padding-top: 4rem;
+		padding-bottom: 4rem;
+	}
+}

@@ -1,0 +1,149 @@
+body {
+	color: #333;
+}
+
+::-moz-selection {
+	background: $rust;
+	color: $sand;
+}
+
+::selection {
+	background: $rust;
+	color: $sand;
+}
+
+body, h1,h2,h3,h4,h5,h6,p,ul,ol {
+	font-family: $sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6 {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+h1,
+.h1 {
+	font-size: 4rem;
+}
+
+h1 {
+	@media #{$breakpoint-md} {
+		font-size: 6rem;
+		font-size: 8vw;
+	}
+}
+
+h2,
+.h2 {
+	font-family: $fairview;
+	font-size: 2.5rem;
+	font-weight: 300;
+}
+
+h2 {
+	line-height: 1.1;
+
+	@media #{$breakpoint-md} {
+		font-size: 4rem;
+		font-size: 5vw;
+	}
+
+	@media #{$breakpoint-xl} {
+		font-size: 4rem;
+	}
+}
+
+h3,
+.h3 {
+	font-size: 1.9rem;
+	line-height: 1.23;
+}
+
+h4,
+.h4 {
+	font-size: 1.7rem;
+	line-height: 1.3;
+}
+
+h5,
+.h5 {
+	font-size: 1.3rem;
+	line-height: 1.3;
+}
+
+h6,
+.h6 {
+	font-size: 1rem;
+}
+
+p {
+	font-size: 0.9rem;
+}
+
+/*
+	Styles
+*/
+
+.hairline {
+	font-weight: 100;
+}
+
+.thin {
+	font-weight: 300;
+}
+
+.small {
+	font-size: 13px;
+}
+
+.xsmall {
+	font-size: 12px;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.sentence {
+	letter-spacing: 0;
+	text-transform: none;
+}
+
+/*
+	Fonts
+*/
+
+.fairview {
+	font-family: $fairview;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.wisdom {
+	font-family: $wisdom;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.futura {
+	font-family: $futura;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+// Alignment
+
+@media #{$breakpoint-md} {
+	.md-left-align {
+		text-align: left;
+	}
+
+	.md-right-align {
+		text-align: right;
+	}
+}
+
+.middle {
+	vertical-align: middle;
+}

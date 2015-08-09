@@ -1,0 +1,24 @@
+.blog-titling {
+	margin-top: -6rem;
+	position: relative;
+	z-index: 2;
+}
+
+.blog,
+.blog-articles {
+
+	a {
+		color: $rust;
+		cursor: pointer;
+
+		&:hover {
+			color: $alt-6;
+			text-decoration: none;
+
+			h5 {
+				color: $rust;
+			}
+		}
+	}
+
+}

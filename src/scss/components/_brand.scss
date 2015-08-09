@@ -1,0 +1,208 @@
+/*
+	Background Colors
+*/
+
+.bg-forest {
+	background-color: $forest;
+
+	&-lighter { background-color: $forest-lighter; }
+	&-light {   background-color: $forest-light; }
+	&-dark {  	background-color: $forest-dark; }
+	&-darker { 	background-color: $forest-darker; }
+}
+
+.bg-rust {
+	background-color: $rust;
+
+	&-lighter { background-color: $rust-lighter; }
+	&-light {   background-color: $rust-light; }
+	&-dark {  	background-color: $rust-dark; }
+	&-darker { 	background-color: $rust-darker; }
+}
+
+.bg-sand {
+	background-color: $sand;
+
+	&-lighter { background-color: $sand-lighter; }
+	&-light {   background-color: $sand-light; }
+	&-dark {  	background-color: $sand-dark; }
+	&-darker { 	background-color: $sand-darker; }
+}
+
+.bg-alt-1 { background-color: $alt-1; } // Dusk
+.bg-alt-2 { background-color: $alt-2; } // Sunbeam
+.bg-alt-3 { background-color: $alt-3; } // Full Moon
+.bg-alt-4 { background-color: $alt-4; } // Clay
+.bg-alt-5 { background-color: $alt-5; } // Cardinal
+.bg-alt-6 { background-color: $alt-6; } // Mossy Oak
+.bg-alt-7 { background-color: $alt-7; } // Honeycomb
+.bg-alt-8 { background-color: $alt-8; } // Bark
+
+
+/*
+	Colors
+*/
+
+
+
+.rust {
+	color: $rust;
+}
+
+.rust-darker {
+	color: $rust-darker;
+}
+
+.forest {
+	color: $forest;
+}
+
+.sand {
+	color: $sand;
+}
+
+.sand-darker {
+	color: $sand-darker;
+}
+
+.sunbeam {
+	color: $alt-2;
+}
+
+.dark {
+	color: $alt-6;
+}
+
+
+/*
+	Banner headlines
+*/
+
+.banner {
+	overflow: hidden;
+	text-align: center;
+	box-sizing: border-box;
+
+	.text {
+		display: inline-block;
+		font-size: 36px;
+		font-weight: 300;
+		padding: 8px 24px;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+
+	&-sm {
+		.text {
+			font-size: 24px;
+		}
+	}
+
+	&-lg {
+		.text {
+			font-size: 45px;
+		}
+	}
+
+	@media #{$breakpoint-sm} {
+
+		&-lg {
+			.text {
+				font-size: 60px;
+			}
+		}
+
+	}
+}
+
+.banner-forest {
+
+	.text {
+		background-color: $forest;
+		color: $sand;
+	}
+}
+
+.banner-sand {
+
+	.text {
+		background-color: $sand;
+		color: $rust;
+	}
+
+	&.banner-lg {
+		.text {
+			background-color: $sand-darker;
+			color: #fff;
+		}
+	}
+}
+
+.csstransforms {
+
+	.banner {
+		background-repeat: no-repeat;
+		background-position: center center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+
+		.text {
+			background-color: transparent;
+			vertical-align: middle;
+			line-height: 1;
+			transform: rotate(-13deg);
+			transform-origin: center center;
+		}
+	}
+
+	.banner-lg {
+		background-size: contain;
+		padding-left: 40px;
+		padding-right: 40px;
+		max-width: 526px;
+
+		.text {
+			line-height: 120px;
+			transform: rotate(-17deg);
+		}
+	}
+
+	.banner-sand {
+		background-image: url(../images/banner-sand.png);
+
+		&.banner-lg {
+			background-image: url(../images/banner-sand-dark-lg.png);
+		}
+	}
+
+	.banner-forest {
+		background-image: url(../images/banner-forest-sm.png);
+
+		&.banner-lg {
+			background-image: url(../images/banner-forest-lg.png);
+		}
+	}
+
+	.banner-rust {
+		// background-image: url(../images/banner-sand.png);
+
+		&.banner-lg {
+			background-image: url(../images/banner-rust-lg.png);
+		}
+	}
+}
+
+.flexbox {
+	.banner {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		align-self: stretch;
+
+		.text {
+			position: relative;
+			top: -2px;
+		}
+	}
+}

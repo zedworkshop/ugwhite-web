@@ -1,0 +1,44 @@
+/* Margins
+----------------------*/
+
+.mtn2 {
+	margin-top: -2rem;
+}
+
+/* Padding
+----------------------*/
+
+.cushion-top {
+	padding-top: 10%;
+
+	&-lg {
+		padding-top: 15%;
+	}
+
+	&-xl {
+		padding-top: 22%;
+	}
+}
+
+.cushion-bottom {
+	padding-bottom: 10%;
+
+	&-lg {
+		padding-bottom: 15%;
+	}
+
+	&-xl {
+		padding-bottom: 22%;
+	}
+}
+
+/* Backgrounds
+----------------------*/
+
+.bg-tint {
+	background-color: $tint;
+}
+
+.bg-cover {
+	background-size: cover;
+}

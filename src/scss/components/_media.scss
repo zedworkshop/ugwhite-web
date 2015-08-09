@@ -1,0 +1,31 @@
+.photo {
+	display: inline-block;
+	margin: 0 1rem;
+	padding: 0.5rem;
+	box-sizing: border-box;
+
+	img {
+		background: #fff;
+		border: 9px solid #fff;
+		box-sizing: border-box;
+		max-width: 100%;
+	}
+}
+
+.curled {
+	padding-bottom: 2%;
+	background: url(../images/bg-photo.png) no-repeat center bottom;
+	background-size: 100% auto;
+}
+
+.csstransforms {
+	.tilted {
+		transform: rotate(-3deg) translate3d(0,0,0);
+	}
+}
+
+.postcard {
+	img {
+		box-shadow: rgba(#000, 0.2) 0 1px 1px;
+	}
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>UG White Mercantile</title>
+	<!-- build:css css/main.css -->
+	<link rel="stylesheet" href="css/main.css">
+	<!-- endbuild -->
+	<script src="bower_components/modernizr/modernizr.js"></script>
+	<script>
+		(function(d) {
+			var config = {
+				kitId: 'hdv3cdw',
+				scriptTimeout: 3000,
+				async: true
+			},
+			h = d.documentElement,
+			t = setTimeout(function() {
+				h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+			}, config.scriptTimeout),
+			tk = d.createElement("script"),
+			f = false,
+			s = d.getElementsByTagName("script")[0],
+			a;
+			h.className += " wf-loading";
+			tk.src = '//use.typekit.net/' + config.kitId + '.js';
+			tk.async = true;
+			tk.onload = tk.onreadystatechange = function() {
+				a = this.readyState;
+				if (f || a && a != "complete" && a != "loaded") return;
+				f = true;
+				clearTimeout(t);
+				try {
+					Typekit.load(config)
+				} catch (e) {}
+			};
+			s.parentNode.insertBefore(tk, s)
+		})(document);
+	</script>
+</head>
+
+<body>
+	<nav class="[ top-0 left-0 full-width ] [ bg-forest px2 py2 ] sitenav">
+		<div class="[ relative ] [ futura caps xsmall white center ] sitenav-inner">
+			<a href="/" class="logo">
+				<img alt="" src="./images/UGW-logo-tri-forest.png" />
+			</a>
+			<a class="btn" href="#">Our History</a>
+			<a class="btn" href="#">Field Notes</a>
+			<a class="btn" href="#">Contact</a>
+		</div>
+	</nav>
+	<main class="main" role="main">
+		<div class="about-hero">
+			<div class="container px3 cushion-top-xl cushion-bottom">
+
+				<div class="clearfix mb4">
+					<!-- <h1 class="fairview uppercase white regular mt0 mb0">Our History</h1> -->
+					<h1 class="banner banner-lg banner-rust mt0 mb0 right">
+						<span class="text wisdom sand">Our History</span>
+					</h1>
+				</div>
+
+				<h4 class="md-col-7 mt0 mb0 white futura regular h2">For nearly a century, U.G. White Mercantile has benefited and served as an economic anchor for downtown Athens.</h4>
+			</div>
+		</div>
+
+		<!-- History -->
+		<section class="">
+			<div class="container border-bottom">
+
+				<div class="clearfix [ md-flex flex-end ]">
+
+					<div class="md-col md-col-6 px2 py4">
+						<h4 class="futura regular mb3 h5">As one of twelve children born to James Monroe "Bud" White and his bride Amanda Warren in the late 1800s, Ulysses Grant White created a business that has influenced Athens, Alabama for nearly a century.</h4>
+
+						<p>Following a farming accident that cost him his right arm, the White Hollow, Tennessee native started U.G. White Hardware and Implement Co. on south Marion Street in 1917.</p>
+
+						<p class="mb0">White supplied Athens's mercantile needs as well as briefly entering the burgeoning automotive service-station business. After twenty years White sought a more strategic location and in 1937 bought and remodeled the corner of 101 Jefferson Street.</p>
+					</div>
+
+					<div class="md-col-right md-col-6 px2">
+						<figure class="m0 ml4 relative">
+							<img alt="Ulysses Grant White" src="../images/img-ugwhite.png" class="block" />
+
+							<p class="absolute top-0 right-0 futura bold mt4 forest col-5 md-col-6">
+								Store founder <br />Ulysess Grant White
+							</p>
+						</figure>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!--// History -->
+
+		<!-- Athens -->
+		<section class="about-athens">
+			<div class="container">
+
+				<div class="clearfix py4 [ md-flex flex-center flex-justify ]">
+
+					<div class="md-col-right md-col-6 px2 about-athens-img">
+						<img alt="" src="../images/img-exterior.jpg" />
+					</div>
+
+					<div class="md-col-right md-col-5 px2">
+						<h4 class="futura uppercase regular forest">Athens</h4>
+
+						<p>For nearly a century U.G. White Mercantile has benefited and served as an economic anchor for downtown Athens. Farmers, cotton mill workers and businessmen alike purchased horse drawn plows, cast iron skillets and everything in between.</p>
+						<p>U.G. White maintains its presence as the trailhead of the once again thriving square in Athens, AL. Having passed from four family generations to the current owners, U.G. White continues to offer quality goods and provisions, fair prices and impeccable customer service.</p>
+						<p class="mb0">There’s something for everyone at U.G. White Mercantile. Now with a location in Elkmont, and coming soon to Downtown Huntsville.</p>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!--// Athens -->
+
+		<!-- Elkmont -->
+		<section class="about-elkmont">
+			<div class="container">
+
+				<div class="clearfix py4 [ md-flex flex-center flex-justify ]">
+
+					<div class="md-col-right md-col-5 px2">
+						<h4 class="futura uppercase regular forest">Elkmont</h4>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit soluta vel ad dolor voluptatibus ratione debitis numquam. At, fugit aliquid, sit, suscipit cupiditate nulla ipsam tenetur saepe vitae debitis commodi.</p>
+					</div>
+
+					<div class="md-col-right md-col-6 px2 about-elkmont-img">
+						<img alt="" src="../images/img-interior.jpg" />
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+		<!--// Elkmont -->
+
+		<!-- Huntsville -->
+		<section class="about-huntsville mb4">
+			<div class="container">
+
+				<div class="clearfix py4 [ md-flex flex-center flex-justify ]">
+
+					<div class="md-col-right md-col-6 px2 about-huntsville-img">
+						<img alt="" src="../images/img-merch.jpg" />
+					</div>
+
+					<div class="md-col-right md-col-5 px2">
+						<h4 class="futura uppercase regular forest">Huntsville</h4>
+
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit soluta vel ad dolor voluptatibus ratione debitis numquam. At, fugit aliquid, sit, suscipit cupiditate nulla ipsam tenetur saepe vitae debitis commodi.</p>
+					</div>
+
+				</div>
+
+			</div>
+		</section>
+		<!--// Huntsville -->
+
+	</main>
+
+	<footer class="[ bg-forest-light ] sitefooter" role="footer">
+		<div class="bg-forest py2">
+			&nbsp;
+		</div>
+		<div class="container">
+			<div class="clearfix center">
+				<div class="md-col md-col-5 md-left-align px2 py2">
+					<p class="small white normal futura">Copyright &copy; 2015 UG White Mercantile</p>
+				</div>
+				<div class="md-show md-col md-col-2 mtn2 footer-logo">
+					<img alt="" src="./images/UGW-logo-duo-forest.png" />
+				</div>
+				<div class="md-col md-col-5 md-right-align px2 py2 mb4">
+					<p class="small white normal futura">asdf</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/headhesive/dist/headhesive.js"></script>
+	<script src="scripts/main.js"></script>
+</body>
+
+</html>

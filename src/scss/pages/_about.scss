@@ -1,0 +1,45 @@
+.about-hero {
+	background-image: url(../images/hero-about.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+// .about-interior {
+
+// 	@media #{$breakpoint-md} {
+// 		width: 75%;
+// 		margin-left: -20%;
+// 	}
+
+// 	@media #{$breakpoint-xl} {
+// 		width: 100%;
+// 		margin-left: -45%;
+// 	}
+// }
+//
+
+.about-athens,
+.about-huntsville {
+
+	&-img {
+
+		@media #{$breakpoint-md} {
+			margin-left: -25%;
+			width: 75%;
+		}
+
+	}
+}
+
+.about-elkmont {
+
+	&-img {
+
+		@media #{$breakpoint-md} {
+			margin-right: -25%;
+			width: 75%;
+		}
+
+	}
+}
