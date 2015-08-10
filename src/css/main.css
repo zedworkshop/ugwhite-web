@@ -1644,6 +1644,8 @@ p {
 ----------------------*/
 .cushion-top {
   padding-top: 10%; }
+  .cushion-top-sm {
+    padding-top: 5%; }
   .cushion-top-lg {
     padding-top: 15%; }
   .cushion-top-xl {
@@ -1651,6 +1653,8 @@ p {
 
 .cushion-bottom {
   padding-bottom: 10%; }
+  .cushion-bottom-sm {
+    padding-bottom: 5%; }
   .cushion-bottom-lg {
     padding-bottom: 15%; }
   .cushion-bottom-xl {
@@ -1997,6 +2001,13 @@ p {
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover; }
+
+@media (min-width: 40em) {
+  .about-history {
+    background-image: url(../images/bg-canoe.png);
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    background-size: 40% auto; } }
 
 @media (min-width: 52em) {
   .about-athens-img, .about-huntsville-img {

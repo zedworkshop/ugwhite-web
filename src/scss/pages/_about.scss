@@ -5,19 +5,16 @@
 	background-size: cover;
 }
 
-// .about-interior {
+.about-history {
 
-// 	@media #{$breakpoint-md} {
-// 		width: 75%;
-// 		margin-left: -20%;
-// 	}
+	@media #{$breakpoint-sm} {
+		background-image: url(../images/bg-canoe.png);
+		background-repeat: no-repeat;
+		background-position: 90% center;
+		background-size: 40% auto;
+	}
+}
 
-// 	@media #{$breakpoint-xl} {
-// 		width: 100%;
-// 		margin-left: -45%;
-// 	}
-// }
-//
 
 .about-athens,
 .about-huntsville {

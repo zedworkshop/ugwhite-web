@@ -1,6 +1,6 @@
 {
   "name": "ugwhite-web",
-  "version": "0.1.17",
+  "version": "0.2.1",
   "devDependencies": {
     "browser-sync": "^1.5.9",
     "del": "^0.1.3",

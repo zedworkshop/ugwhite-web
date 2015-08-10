@@ -17,13 +17,13 @@
 		</div>
 
 		<!-- History -->
-		<section class="bg-sand">
+		<section class="bg-sand about-history">
 			<div class="container">
 
 				<div class="clearfix [ md-flex flex-end ]">
 
-					<div class="md-col md-col-6 px2 py4">
-						<h4 class="futura regular mb3 h5 rust">As one of twelve children born to James Monroe "Bud" White and his bride Amanda Warren in the late 1800s, Ulysses Grant White created a business that has influenced Athens, Alabama for nearly a century.</h4>
+					<div class="md-col md-col-6 px2 cushion-top cushion-bottom">
+						<h4 class="futura regular mb3 rust">As one of twelve children born to James Monroe "Bud" White and his bride Amanda Warren in the late 1800s, Ulysses Grant White created a business that has influenced Athens, Alabama for nearly a century.</h4>
 
 						<p>Following a farming accident that cost him his right arm, the White Hollow, Tennessee native started U.G. White Hardware and Implement Co. on south Marion Street in 1917.</p>
 

@@ -11,6 +11,10 @@
 .cushion-top {
 	padding-top: 10%;
 
+	&-sm {
+		padding-top: 5%;
+	}
+
 	&-lg {
 		padding-top: 15%;
 	}
@@ -22,6 +26,10 @@
 
 .cushion-bottom {
 	padding-bottom: 10%;
+
+	&-sm {
+		padding-bottom: 5%;
+	}
 
 	&-lg {
 		padding-bottom: 15%;
