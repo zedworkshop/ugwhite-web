@@ -35,7 +35,9 @@ gulp.task('styles', function() {
         .pipe($.autoprefixer(['last 5 versions', '> 1%', 'ie 8', 'ie 7'], {
             cascade: true
         }))
-        .pipe($.pixrem(undefined, { atrules: true }))
+        .pipe($.pixrem(undefined, {
+            atrules: true
+        }))
         .pipe(gulp.dest(paths.dev + '/css'))
         .pipe($.size({
             showFiles: true
@@ -57,7 +59,7 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('html', ['styles'], function() {
-    var jsFilter = $.filter(paths.dev + '/js/*.js');
+    var jsFilter = $.filter(paths.dev + '/scripts/*.js');
     var cssFilter = $.filter(paths.dev + '/css/*.css');
     var assets = $.useref.assets();
 
@@ -79,6 +81,9 @@ gulp.task('html', ['styles'], function() {
 });
 
 gulp.task('images', function() {
+
+    $.del([paths.build + '/images/**', '!' + paths.build + '/images']);
+
     return gulp.src(paths.dev + '/images/**/*')
         .pipe($.cache($.imagemin({
             optimizationLevel: 3,
@@ -91,8 +96,8 @@ gulp.task('images', function() {
 });
 
 gulp.task('fonts', function() {
-    return gulp.src($.mainBowerFiles())
-        .pipe($.filter('**/*.{eot,svg,ttf,woff}'))
+    return gulp.src(paths.dev + '/fonts/**/*')
+        .pipe($.filter('**/*.{eot,svg,ttf,woff,woff2}'))
         .pipe($.flatten())
         .pipe(gulp.dest(paths.build + '/fonts'))
         .pipe($.size());
@@ -144,4 +149,8 @@ gulp.task('bump', function() {
             type: bumpType
         }))
         .pipe(gulp.dest('./'));
+});
+
+gulp.task('clear', function(done) {
+    return $.cache.clearAll(done);
 });

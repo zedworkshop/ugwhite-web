@@ -1514,6 +1514,12 @@ p {
 .middle {
   vertical-align: middle; }
 
+.sm-show-inline {
+  display: none; }
+  @media (min-width: 40em) {
+    .sm-show-inline {
+      display: inline-block; } }
+
 @media (min-width: 76em) {
   .xl-col {
     float: left;
@@ -1580,6 +1586,13 @@ p {
         transition-duration: 500ms;
         transition-delay: 300ms; } }
 
+.sitefooter {
+  background-image: url(../images/footer-shovel.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  padding-bottom: 80px;
+  padding-bottom: 5rem; }
+
 .sitenav {
   position: relative;
   z-index: 11;
@@ -1587,24 +1600,24 @@ p {
   .sitenav .btn {
     box-shadow: none;
     border: 0 transparent;
-    border-bottom-width: 3px;
+    border-bottom: 3px solid transparent;
     font-size: 12px;
     font-size: 0.75rem;
-    padding-left: 8px;
-    padding-left: 0.5rem;
-    padding-right: 8px;
-    padding-right: 0.5rem;
+    padding-left: 4px;
+    padding-left: 0.25rem;
+    padding-right: 4px;
+    padding-right: 0.25rem;
     outline: none; }
-    .sitenav .btn:active, .sitenav .btn:focus {
+    .sitenav .btn:active {
       border-bottom: 3px solid #F6B221; }
   @media (min-width: 40em) {
     .sitenav .btn {
       font-size: 12px;
       font-size: 0.8rem;
-      padding-left: 16px;
-      padding-left: 1rem;
-      padding-right: 16px;
-      padding-right: 1rem; } }
+      padding-left: 12px;
+      padding-left: 0.75rem;
+      padding-right: 12px;
+      padding-right: 0.75rem; } }
 
 .sitenav--hidden, .sitenav--clone {
   position: fixed;
@@ -1659,7 +1672,7 @@ p {
   .bg-forest-lighter {
     background-color: #87a47b; }
   .bg-forest-light {
-    background-color: #55873f; }
+    background-color: #53843d; }
   .bg-forest-dark {
     background-color: #3f652f; }
   .bg-forest-darker {
@@ -1744,18 +1757,23 @@ p {
   box-sizing: border-box; }
   .banner .text {
     display: inline-block;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 300;
     padding: 8px 24px;
+    text-decoration: none;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale; }
-  .banner-sm .text {
-    font-size: 24px; }
+  .banner-md .text {
+    font-size: 36px; }
   .banner-lg .text {
     font-size: 45px; }
   @media (min-width: 40em) {
     .banner-lg .text {
       font-size: 60px; } }
+
+.banner-rust .text {
+  background-color: #b83d24;
+  color: #F3E4B2; }
 
 .banner-forest .text {
   background-color: #4A7637;
@@ -1776,13 +1794,21 @@ p {
   .csstransforms .banner .text {
     background-color: transparent;
     vertical-align: middle;
-    line-height: 1;
+    line-height: 40px;
     -webkit-transform: rotate(-13deg);
         -ms-transform: rotate(-13deg);
             transform: rotate(-13deg);
     -webkit-transform-origin: center center;
         -ms-transform-origin: center center;
             transform-origin: center center; }
+.csstransforms .banner-md {
+  padding-left: 30px;
+  padding-right: 30px; }
+  .csstransforms .banner-md .text {
+    line-height: 60px;
+    -webkit-transform: rotate(-17deg);
+        -ms-transform: rotate(-17deg);
+            transform: rotate(-17deg); }
 .csstransforms .banner-lg {
   background-size: contain;
   padding-left: 40px;
@@ -1793,16 +1819,20 @@ p {
     -webkit-transform: rotate(-17deg);
         -ms-transform: rotate(-17deg);
             transform: rotate(-17deg); }
-.csstransforms .banner-sand {
-  background-image: url(../images/banner-sand.png); }
-  .csstransforms .banner-sand.banner-lg {
-    background-image: url(../images/banner-sand-dark-lg.png); }
+.csstransforms .banner-sand.banner-md {
+  background-image: url(../images/banner-sand-md.png); }
+.csstransforms .banner-sand.banner-lg {
+  background-image: url(../images/banner-sand-dark-lg.png); }
 .csstransforms .banner-forest {
-  background-image: url(../images/banner-forest-sm.png); }
+  background-image: url(../images/banner-forest.png); }
   .csstransforms .banner-forest.banner-lg {
     background-image: url(../images/banner-forest-lg.png); }
-.csstransforms .banner-rust.banner-lg {
-  background-image: url(../images/banner-rust-lg.png); }
+.csstransforms .banner-rust {
+  background-image: url(../images/banner-rust.png); }
+  .csstransforms .banner-rust.banner-md {
+    background-image: url(../images/banner-rust-md.png); }
+  .csstransforms .banner-rust.banner-lg {
+    background-image: url(../images/banner-rust-lg.png); }
 
 .flexbox .banner {
   display: -webkit-flex;
@@ -1992,3 +2022,10 @@ p {
     text-decoration: none; }
     .blog a:hover h5, .blog-articles a:hover h5 {
       color: #b83d24; }
+
+.blog-title {
+  font-size: 45px;
+  line-height: 1; }
+  @media (min-width: 64em) {
+    .blog-title {
+      font-size: 60px; } }

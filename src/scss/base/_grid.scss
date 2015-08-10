@@ -1,3 +1,11 @@
+.sm-show-inline {
+  display: none;
+
+  @media #{$breakpoint-sm} {
+    display: inline-block;
+  }
+}
+
 @media #{$breakpoint-xl} {
 
   .xl-col {

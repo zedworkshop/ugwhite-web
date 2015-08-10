@@ -85,16 +85,17 @@
 
 	.text {
 		display: inline-block;
-		font-size: 36px;
+		font-size: 24px;
 		font-weight: 300;
 		padding: 8px 24px;
+		text-decoration: none;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
 	}
 
-	&-sm {
+	&-md {
 		.text {
-			font-size: 24px;
+			font-size: 36px;
 		}
 	}
 
@@ -112,6 +113,13 @@
 			}
 		}
 
+	}
+}
+
+.banner-rust {
+	.text {
+		background-color: $rust;
+		color: $sand;
 	}
 }
 
@@ -149,9 +157,19 @@
 		.text {
 			background-color: transparent;
 			vertical-align: middle;
-			line-height: 1;
+			line-height: 40px;
 			transform: rotate(-13deg);
 			transform-origin: center center;
+		}
+	}
+
+	.banner-md {
+		padding-left: 30px;
+		padding-right: 30px;
+
+		.text {
+			line-height: 60px;
+			transform: rotate(-17deg);
 		}
 	}
 
@@ -168,7 +186,11 @@
 	}
 
 	.banner-sand {
-		background-image: url(../images/banner-sand.png);
+		// background-image: url(../images/banner-sand.png);
+
+		&.banner-md {
+			background-image: url(../images/banner-sand-md.png);
+		}
 
 		&.banner-lg {
 			background-image: url(../images/banner-sand-dark-lg.png);
@@ -176,7 +198,7 @@
 	}
 
 	.banner-forest {
-		background-image: url(../images/banner-forest-sm.png);
+		background-image: url(../images/banner-forest.png);
 
 		&.banner-lg {
 			background-image: url(../images/banner-forest-lg.png);
@@ -184,7 +206,11 @@
 	}
 
 	.banner-rust {
-		// background-image: url(../images/banner-sand.png);
+		background-image: url(../images/banner-rust.png);
+
+		&.banner-md {
+			background-image: url(../images/banner-rust-md.png);
+		}
 
 		&.banner-lg {
 			background-image: url(../images/banner-rust-lg.png);

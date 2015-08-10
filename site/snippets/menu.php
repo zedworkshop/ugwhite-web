@@ -1,22 +1,11 @@
 <nav role="navigation">
 
-  <ul class="menu cf">
-    <?php foreach($pages->visible() as $p): ?>
-    <li>
-      <a <?php e($p->isOpen(), ' class="active"') ?> href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
-
-      <?php if($p->hasVisibleChildren()): ?>
-      <ul class="submenu">
-        <?php foreach($p->children()->visible() as $p): ?>
-        <li>
-          <a href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a>
-        </li>
-        <?php endforeach ?>
-      </ul>
-      <?php endif ?>
-
-    </li>
-    <?php endforeach ?>
-  </ul>
+	<?php if(!$page->isHomePage()): ?>
+	<a class="btn" href="<?php echo url() ?>">Home</a> &middot;
+	<?php endif; ?>
+	<?php foreach($pages->visible() as $p): ?>
+	<a class="btn" href="<?php echo $p->url() ?>"><?php echo $p->title()->html() ?></a> &middot;
+	<?php endforeach ?>
+	<span class="inline-block middle bold px2 sunbeam"><span class="sm-show-inline">Call us at</span> (256) 232-4540</span>
 
 </nav>

@@ -12,9 +12,19 @@ fields:
   description:
     label: Description
     type:  textarea
-  keywords:
-    label: Keywords
-    type:  tags
-  copyright:
-    label: Copyright
-    type:  textarea
+  facebook:
+    label: Facebook
+    type: url
+    width: 1/2
+  twitter:
+    label: Twitter
+    type: url
+    width: 1/2
+  instagram:
+    label: Instagram
+    type: url
+    width: 1/2
+  youtube:
+    label: YouTube
+    type: url
+    width: 1/2

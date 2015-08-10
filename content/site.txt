@@ -1,17 +1,25 @@
-Title: Kirby Starterkit
+Title: U.G. White Mercantile
 
 ----
 
-Author: Bastian Allgeier GmbH
+Author: U.G. White
 
 ----
 
-Description: This is Kirby's Starterkit.
+Description: 
 
 ----
 
-Keywords: Kirby, CMS, file-based
+Facebook: http://facebook.com/ugwhite
 
 ----
 
-Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+Twitter: 
+
+----
+
+Instagram: 
+
+----
+
+Youtube: 

@@ -6,14 +6,13 @@
 	.btn {
 		box-shadow: none;
 		border: 0 transparent;
-		border-bottom-width: 3px;
+		border-bottom: 3px solid transparent;
 		font-size: 0.75rem;
-		padding-left: 0.5rem;
-		padding-right: 0.5rem;
+		padding-left: 0.25rem;
+		padding-right: 0.25rem;
 		outline: none;
 
-		&:active,
-		&:focus {
+		&:active {
 			border-bottom: 3px solid $alt-2;
 		}
 	}
@@ -21,8 +20,8 @@
 	@media #{$breakpoint-sm} {
 		.btn {
 			font-size: 0.8rem;
-			padding-left: 1rem;
-			padding-right: 1rem;
+			padding-left: 0.75rem;
+			padding-right: 0.75rem;
 		}
 	}
 }
