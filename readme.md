@@ -2,6 +2,13 @@
 
 A [Kirby](http://getkirby.com/) site.
 
+### Installing
+
+``` 
+$ cd your/project/root
+$ git submodule update --init --recursive
+```
+
 ### Updating
 
 ```
