@@ -10,3 +10,6 @@
 [submodule "site/fields/selector"]
 	path = site/fields/selector
 	url = git@github.com:storypioneers/kirby-selector.git
+[submodule "kirby-uniform"]
+	path = kirby-uniform
+	url = https://github.com/mzur/kirby-uniform.git

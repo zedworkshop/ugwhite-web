@@ -29,5 +29,20 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 
 */
 
+// Language
+c::set('panel.language', 'en');
+
 // ImageMagick
 c::set('thumbs.driver', 'im');
+
+c::set('languages', array(
+    array(
+        'code'    => 'en',
+        'name'    => 'English',
+        'locale'  => 'en_US',
+        'default' => true,
+        'url'     => '/'
+    )
+));
+
+c::set('debug', true);

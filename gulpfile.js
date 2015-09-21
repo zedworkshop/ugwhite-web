@@ -39,6 +39,7 @@ gulp.task('styles', function() {
             atrules: true
         }))
         .pipe(gulp.dest(paths.dev + '/css'))
+        .pipe(gulp.dest(paths.build + '/css'))
         .pipe($.size({
             showFiles: true
         }))

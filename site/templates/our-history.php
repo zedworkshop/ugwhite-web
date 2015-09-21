@@ -3,7 +3,7 @@
   	<main class="main" role="main">
 
 		<div class="about-hero">
-			<div class="container px3 cushion-top-xl cushion-bottom">
+			<div class="container px3 cushion-top cushion-bottom">
 
 				<div class="clearfix mb4">
 					<!-- <h1 class="fairview uppercase white regular mt0 mb0">Our History</h1> -->

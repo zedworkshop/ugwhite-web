@@ -22,7 +22,8 @@
 		<section class="[ bg-rust py2 ] home-intro">
 
 			<div class="[ container px2 ] [ center white ]">
-				<header class="py1">
+
+				<header class="py1 home-since">
 					<img alt="Since 1917" src="<?php echo url('assets/images/home-since.png') ?>" />
 					<h2 class="mt3">At U.G. White, we pride ourselves <br />in offering quality goods <br />with the best possible customer service.</h2>
 					<img alt="" src="<?php echo url('assets/images/home-bird.png') ?>" />

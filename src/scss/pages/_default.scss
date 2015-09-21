@@ -1,0 +1,15 @@
+.page-default {
+	h3 {
+		font-family: $fairview;
+		font-size: 2rem;
+		line-height: 1.1;
+		font-weight: 400;
+
+	}
+
+	@media #{$breakpoint-md} {
+		h3 {
+			font-size: 2.4rem;
+		}
+	}
+}

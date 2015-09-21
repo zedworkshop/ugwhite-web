@@ -12,6 +12,14 @@ fields:
   description:
     label: Description
     type:  textarea
+  info_email:
+    label: Info Email
+    type: email
+    width: 1/2
+  sponsorship_email:
+    label: Sponsorship Email
+    type: email
+    width: 1/2
   facebook:
     label: Facebook
     type: url

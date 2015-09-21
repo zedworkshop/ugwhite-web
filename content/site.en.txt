@@ -23,3 +23,11 @@ Instagram:
 ----
 
 Youtube: 
+
+----
+
+Info-email: adam@zedworkshop.com
+
+----
+
+Sponsorship-email: adam@zedworkshop.com
