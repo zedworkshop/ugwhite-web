@@ -59,6 +59,11 @@
 						<h4 class="futura uppercase regular forest">Athens</h4>
 
 						<?php echo $page->athens()->kirbytext() ?>
+
+						<h6 class="futura regular grey caps mt3">Hours of Operation</h6>
+						<p>Monday - Wednesday, 9am - 6pm<br />
+							Thursday - Saturday, 9am - 8pm
+						</p>
 					</div>
 				</div>
 
@@ -82,6 +87,9 @@
 						<h4 class="futura uppercase regular forest">Elkmont</h4>
 
 						<?php echo $page->elkmont()->kirbytext() ?>
+
+						<h6 class="futura regular grey caps mt3">Hours of Operation</h6>
+						<p>Thursday - Saturday, 10am - 5pm</p>
 					</div>
 
 				</div>
