@@ -117,7 +117,7 @@
 
 						<div class="center clearfix mb2">
 
-							<div class="sm-col sm-col-6 lg-col-4 xl-col-6 px2 py1">
+							<div class="sm-col sm-col-6 xl-col-6 px2 py1">
 								<h4 class="sunbeam uppercase futura h3 bold mb0 mt0">Athens</h4>
 								<p class="mb0 futura h6">101 North Jefferson Street</p>
 								<p class="xsmall">
@@ -126,7 +126,7 @@
 								</p>
 							</div>
 
-							<div class="sm-col sm-col-6 lg-col-4 xl-col-6 px2 py1">
+							<div class="sm-col sm-col-6 xl-col-6 px2 py1">
 								<h4 class="sunbeam uppercase futura h3 bold mb0 mt0">Huntsville</h4>
 								<p class="mb0 futura h6">115 Clinton Ave E</p>
 								<p class="xsmall">
