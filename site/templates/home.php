@@ -117,21 +117,23 @@
 
 						<div class="center clearfix mb2">
 
-							<div class="sm-col sm-col-6 lg-col-4 xl-col-6 px2 py1">
+							<div class="sm-col sm-col-6 xl-col-6 px2 py1">
 								<h4 class="sunbeam uppercase futura h3 bold mb0 mt0">Athens</h4>
 								<p class="mb0 futura h6">101 North Jefferson Street</p>
-								<p class="xsmall">Monday - Wednesday, 9am - 6pm<br />Thursday - Saturday, 9am - 8pm</p>
+								<p class="xsmall">
+									Monday - Wednesday, 9am - 6pm<br />
+									Thursday - Saturday, 9am - 8pm
+								</p>
 							</div>
 
-							<div class="sm-col sm-col-6 lg-col-4 xl-col-6 px2 py1">
-								<h4 class="sunbeam uppercase futura h3 bold mb0 mt0">Elkmont</h4>
-								<p class="mb0 futura h6">18888 Upper Fort Hampton Road</p>
-								<p class="xsmall">Monday - Wednesday, 9am - 6pm<br />Thursday - Saturday, 9am - 8pm</p>
-							</div>
-
-							<div class="sm-col sm-col-12 lg-col-4 xl-col-12 px2 py1">
+							<div class="sm-col sm-col-6 xl-col-6 px2 py1">
 								<h4 class="sunbeam uppercase futura h3 bold mb0 mt0">Huntsville</h4>
-								<p class="mb0 futura h6">Coming soon to Downtown Huntsville</p>
+								<p class="mb0 futura h6">115 Clinton Ave E</p>
+								<p class="xsmall">
+									Monday - Wednesday, 10am - 6pm<br />
+									Thursday - Saturday, 10am - 8pm<br />
+									Sunday, 1pm - 6pm
+								</p>
 							</div>
 
 						</div>
