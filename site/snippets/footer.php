@@ -29,16 +29,20 @@
 					    		<svg class="icon-facebook icon-2x"><use xlink:href="#icon-facebook"></use></svg>
 					    	</a>
 					  	</li>
+					  	<?php if(!$site->twitter()->empty()): ?>
 					  	<li class="inline-block px1">
 					    	<a href="<?php echo $site->twitter() ?>" target="_blank" class="white">
 					    		<svg class="icon-twitter2 icon-2x"><use xlink:href="#icon-twitter2"></use></svg>
 					    	</a>
 					  	</li>
+					  	<?php endif; ?>
+					  	<?php if(!$site->instagram()->empty()): ?>
 					  	<li class="inline-block px1">
 					    	<a href="<?php echo $site->instagram() ?>" target="_blank" class="white">
 					    		<svg class="icon-instagram icon-2x"><use xlink:href="#icon-instagram"></use></svg>
 					    	</a>
 					  	</li>
+					  	<?php endif; ?>
 					</ul>
 				</div>
 			</div>
