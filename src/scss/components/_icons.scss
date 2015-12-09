@@ -1,0 +1,12 @@
+[class^="icon-"],
+[class*=" icon-"] {
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	fill: currentColor;
+
+	&.icon-2x {
+		width: 1.5rem;
+		height: 1.5rem;
+	}
+}
