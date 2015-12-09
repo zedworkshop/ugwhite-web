@@ -73,47 +73,25 @@
 
 		<hr class="sm-hide" />
 
-		<!-- Elkmont -->
-		<section class="about-elkmont">
-			<div class="container">
-
-				<div class="clearfix py3 [ md-flex flex-center flex-justify ]">
-
-					<div class="[ md-col-right md-col-6 px2 ] [ flex-last ] about-elkmont-img">
-						<img alt="" src="<?php echo url('assets/images/img-interior.jpg') ?>" />
-					</div>
-
-					<div class="md-col md-col-5 px2">
-						<h4 class="futura uppercase regular forest">Elkmont</h4>
-
-						<?php echo $page->elkmont()->kirbytext() ?>
-
-						<h6 class="futura regular grey caps mt3">Hours of Operation</h6>
-						<p>Thursday - Saturday, 10am - 5pm</p>
-					</div>
-
-				</div>
-
-			</div>
-		</section>
-		<!--// Elkmont -->
-
-		<hr class="sm-hide" />
-
 		<!-- Huntsville -->
 		<section class="about-huntsville mb4">
 			<div class="container">
 
 				<div class="clearfix py3 [ md-flex flex-center flex-justify ]">
 
-					<div class="[ md-col md-col-6 ] px2 about-huntsville-img">
+					<div class="[ md-col-right md-col-6 px2 ] [ flex-last ] about-huntsville-img">
 						<img alt="" src="<?php echo url('assets/images/img-merch.jpg') ?>" />
 					</div>
 
-					<div class="md-col-right md-col-5 px2">
+					<div class="md-col md-col-5 px2">
 						<h4 class="futura uppercase regular forest">Huntsville</h4>
 
 						<?php echo $page->huntsville()->kirbytext() ?>
+
+						<h6 class="futura regular grey caps mt3">Hours of Operation</h6>
+						<p>Monday - Wednesday, 10am - 6pm<br />
+						Thursday - Saturday, 10am - 8pm<br />
+						Sunday, 1pm - 6pm</p>
 					</div>
 
 				</div>
