@@ -10,6 +10,7 @@
     </title>
     <meta name="description" content="<?php echo $site->description()->html() ?>">
     <meta name="keywords" content="<?php echo $site->keywords()->html() ?>">
+    <link rel="icon" type="image/ico" href="<?php echo url('assets/favicon.ico') ?>?ts=<?php echo time() ?>">
     <?php echo css('assets/css/main.css') ?>
         <?php echo js('assets/js/init.js') ?>
             <script>
