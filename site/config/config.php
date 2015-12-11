@@ -30,7 +30,7 @@ of the system, please check out http://getkirby.com/docs/advanced/options
 */
 
 // Language
-// c::set('panel.language', 'en');
+c::set('panel.language', 'en');
 
 // ImageMagick
 c::set('thumbs.driver', 'im');
