@@ -4,6 +4,9 @@ title: Home
 pages: false
 fields:
   title:
+    label: Navigation Label
+    type:  text
+  metatitle:
     label: Title
     type:  text
   text:

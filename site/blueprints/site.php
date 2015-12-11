@@ -12,6 +12,9 @@ fields:
   description:
     label: Description
     type:  textarea
+  keywords:
+    label: Keywords
+    type:  text
   info_email:
     label: Info Email
     type: email

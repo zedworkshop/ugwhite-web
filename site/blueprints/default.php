@@ -5,6 +5,9 @@ pages: true
 files: true
 fields:
   title:
+    label: Navigation Label
+    type:  text
+  metatitle:
     label: Title
     type:  text
   text:

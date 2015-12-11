@@ -6,16 +6,16 @@ pages:
 files: false
 fields:
   title:
-    label: Title
+    label: Navigation Label
+    type:  text
+  metatitle:
+    label: Page Title
     type:  text
   summary:
     label: Summary
     type:  text
   athens:
     label: Athens
-    type:  textarea
-  elkmont:
-    label: Elkmont
     type:  textarea
   huntsville:
     label: Huntsville
