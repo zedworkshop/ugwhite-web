@@ -6,11 +6,11 @@ Author: U.G. White
 
 ----
 
-Description: 
+Description: At U.G. White Mercantile, we pride ourselves on being a good downtown community partner and offering quality goods - from clothing and candy to kitchen goods, jams and jellies, and knives - with unparalleled service and attention to detail. Your modern outfitter with a long history of retail service.
 
 ----
 
-Facebook: http://facebook.com/ugwhiteathens
+Facebook: http://acebook.com/UGWhiteHuntsville
 
 ----
 
@@ -26,8 +26,12 @@ Youtube:
 
 ----
 
-Info-email: adam@zedworkshop.com
+Info-email: info@ugwhite.com
 
 ----
 
-Sponsorship-email: adam@zedworkshop.com
+Sponsorship-email: mark@ugwhite.com
+
+----
+
+Keywords: U.G. White, mercantile, downtown, clothing, outfitter, candy, kitchen, knives, knife, jam, retail, sales, vintage, 1917
